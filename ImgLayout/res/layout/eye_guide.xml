@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_white"
+    android:orientation="vertical"
+    tools:context="com.example.imglayout.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Carrot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:paddingLeft="25dp"
+            android:text="@string/Carrot"
+            android:textColor="#A9A9A9" />
+
+        <ImageView
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/broccoli_image"
+            android:gravity="center"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/DidYouKnow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00CCFF"
+            android:paddingLeft="10dp"
+            android:paddingRight="3dp"
+            android:text="@string/DidYouKnow"
+            android:textColor="#FFF"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/vitamins"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:text="@string/Vitamins"
+                android:textSize="@dimen/text_size2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/color_white"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/btn_a" />
+
+                <Button
+                    android:id="@+id/btnB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/btn_b6" />
+
+                <Button
+                    android:id="@+id/btnC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_c" />
+
+                <Button
+                    android:id="@+id/btnLZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_l" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Prevents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="25dp"
+                android:text="@string/PreventsFrom"
+                android:textSize="@dimen/text_size2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/cataract"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:background="#00CCFF"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="2dp"
+                        android:text="@string/cataract"
+                        android:textColor="#FFF"
+                        android:textSize="@dimen/text_size2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dryeye"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:background="#FA8072"
+                        android:paddingRight="2dp"
+                        android:text="@string/dryEye"
+                        android:textColor="#FFF"
+                        android:textSize="@dimen/text_size2"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/macular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#00CCFF"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="2dp"
+                    android:text="@string/macularDeg"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/text_size2"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
