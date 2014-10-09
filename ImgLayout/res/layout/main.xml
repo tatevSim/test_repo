@@ -53,18 +53,18 @@
                     android:id="@+id/text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                   android:layout_alignParentLeft="true"
-                   android:layout_alignParentTop="true"
-                    android:textColor="@drawable/color_white" />
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@drawable/color_white" 
+                     android:textSize="@dimen/text_size"/>
 
                 <TextView
                     android:id="@+id/text1_is_new"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
                     android:gravity="center_vertical"
-                     android:layout_alignParentBottom="true"
-                 android:layout_alignParentRight="true"
-     
                     android:textColor="@drawable/color_white" />
             </RelativeLayout>
 
@@ -78,28 +78,28 @@
                 android:layout_marginTop="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button2"
+                android:clickable="true"
                 android:gravity="left|top"
                 android:padding="7dp"
-                android:clickable="true"
                 android:textColor="@drawable/color_white" >
 
                 <TextView
                     android:id="@+id/text2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="left|top"
                     android:layout_alignParentLeft="true"
-                   android:layout_alignParentTop="true"
-                    android:textColor="@drawable/color_white" />
+                    android:layout_alignParentTop="true"
+                    android:gravity="left|top"
+                    android:textColor="@drawable/color_white" 
+                    android:textSize="@dimen/text_size"/>
 
                 <TextView
                     android:id="@+id/text2_is_new"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="left|top"
                     android:layout_alignParentBottom="true"
-                 android:layout_alignParentRight="true"
-     
+                    android:layout_alignParentRight="true"
+                    android:gravity="left|top"
                     android:textColor="@drawable/color_white" />
             </RelativeLayout>
         </LinearLayout>
@@ -121,28 +121,28 @@
                 android:layout_marginTop="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button3"
+                android:clickable="true"
                 android:gravity="left|top"
                 android:padding="7dp"
-                android:clickable="true"
                 android:textColor="@drawable/color_white" >
 
                 <TextView
                     android:id="@+id/text3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="left|top"
                     android:layout_alignParentLeft="true"
-                   android:layout_alignParentTop="true"
-                    android:textColor="@drawable/color_white" />
+                    android:layout_alignParentTop="true"
+                    android:gravity="left|top"
+                    android:textColor="@drawable/color_white"
+                    android:textSize="@dimen/text_size" />
 
                 <TextView
                     android:id="@+id/text3_is_new"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="left|top"
                     android:layout_alignParentBottom="true"
-                 android:layout_alignParentRight="true"
-     
+                    android:layout_alignParentRight="true"
+                    android:gravity="left|top"
                     android:textColor="@drawable/color_white" />
             </RelativeLayout>
 
@@ -156,27 +156,28 @@
                 android:layout_marginTop="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button4"
+                android:clickable="true"
                 android:gravity="left|top"
                 android:padding="7dp"
-                android:clickable="true"
                 android:textColor="@drawable/color_white" >
 
                 <TextView
                     android:id="@+id/text4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="left|top"
                     android:layout_alignParentLeft="true"
-                   android:layout_alignParentTop="true"
-                    android:textColor="@drawable/color_white" />
+                    android:layout_alignParentTop="true"
+                    android:gravity="left|top"
+                    android:textColor="@drawable/color_white"
+                    android:textSize="@dimen/text_size" />
 
                 <TextView
                     android:id="@+id/text4_is_new"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
                     android:gravity="left|top"
-                        android:layout_alignParentBottom="true"
-                 android:layout_alignParentRight="true"
                     android:textColor="@drawable/color_white" />
             </RelativeLayout>
         </LinearLayout>

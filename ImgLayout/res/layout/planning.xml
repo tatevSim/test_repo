@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FFA500"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Planning"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:text="WORKOUT DAYS"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/daycount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="DAY(S) SELECTED"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/datePickerButton"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#FFFFFF"
+        android:text="pick_time" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/toggMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="MON"
+            android:textOn="MON" />
+
+        <ToggleButton
+            android:id="@+id/toggTue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="TUE"
+            android:textOn="TUE" />
+
+        <ToggleButton
+            android:id="@+id/toggWed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="WED"
+            android:textOn="WED" />
+
+        <ToggleButton
+            android:id="@+id/toggThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="THU"
+            android:textOn="THU" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/toggFri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="FRI"
+            android:textOn="FRI" />
+
+        <ToggleButton
+            android:id="@+id/toggSat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="SAT"
+            android:textOn="SAT" />
+
+        <ToggleButton
+            android:id="@+id/toggSun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/my_btn_toggle"
+            android:padding="15dp"
+            android:textOff="SUN"
+            android:textOn="SUN" />
+    </LinearLayout>
+
+</LinearLayout>

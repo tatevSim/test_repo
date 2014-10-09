@@ -33,7 +33,7 @@
                 android:layout_marginTop="50dp"
                 android:focusable="true"
                 android:paddingLeft="25dp"
-                android:background="#000"
+                
                 android:text="Trainings"
                 android:padding="20dp"
                 android:textColor="#FFF"
