@@ -45,7 +45,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	Typeface typeface;
 
 	public static final String URL = "http://www.eyeexamtest.com/images/eyecareplusbanner.png";
-	private static String url = "http://www.eyeexamtest.com/en/dailytips/testing.json";
+ 
 	private static final String TAG_TEST = "test_name";
 	private static final String TAG_IS_NEW = "is_new";
 	private static final String TAG_IS_PASSED = "is_passed";
@@ -122,7 +122,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 			ServiceHandler sh = new ServiceHandler();
 
-			String jsonStr = sh.makeServiceCall(url, ServiceHandler.GET);
+			String jsonStr = sh.makeServiceCall(URL, ServiceHandler.GET);
 			Log.d(jsonStr, "aaa");
 
 			if (jsonStr != null) {
